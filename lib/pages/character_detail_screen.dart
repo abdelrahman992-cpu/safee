@@ -83,14 +83,14 @@ class _CharacterDetailScreenState extends State<CharacterDetailScreen>
                         color: Colors.transparent,
                         child: Container(
                             child: Text(
-                          widget.character.name,
+                          widget.character.name!,
                           style: AppTheme.heading,
                         )),
                       ))),
               Padding(
                 padding: const EdgeInsets.fromLTRB(32, 0, 8, 32),
                 child: Text(
-                  widget.character.description,
+                  widget.character.description!,
                   style: AppTheme.subHeading,
                 ),
               )

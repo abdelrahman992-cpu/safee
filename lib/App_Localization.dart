@@ -29,7 +29,7 @@ class AppLocalization {
     return true;
   }
 
-  String? translate(String key) {
+  String? translate(String? key) {
     return _localizationStrings[key];
   }
 }

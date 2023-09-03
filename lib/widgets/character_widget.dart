@@ -79,7 +79,7 @@ class CharacterWidget extends StatelessWidget {
                         color: Colors.transparent,
                         child: Container(
                             child: Text(
-                          character.name,
+                          character.name!,
                           style: AppTheme.heading,
                         )),
                       )),

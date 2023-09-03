@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:safeer/models/character.dart';
-import 'package:safeer/styleguide.dart';
 import 'package:safeer/widgets/character_widget.dart';
+
+import '../styleguide.dart';
 
 class CharactersListScreen extends StatefulWidget {
   @override
